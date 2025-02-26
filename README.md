@@ -144,7 +144,7 @@
       </div>
       <h2>Olá!</h2>
       <div class="password-container">
-        <input type="password" id="password" placeholder="Senha" require></textarea><br><br>
+        <textarea><input type="password" id="password" placeholder="Senha" require></textarea><br><br>
       </div>
       <div class="show-password">
         <input type="checkbox" id="showPassword" onclick="togglePassword()"> <label for="showPassword">Mostrar senha</label>
