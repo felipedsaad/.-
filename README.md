@@ -188,8 +188,13 @@
         errorMessage.style.display = 'block';
       } else {
         errorMessage.style.display = 'none';
-              }          
-                    }
+      }
+    }
+    function togglePassword() {
+      let passwordField = document.getElementById('password');
+      let checkbox = document.getElementById('showPassword');
+      passwordField.type = checkbox.checked ? 'text' : 'password';
+    }
   </script>
 </body>
 </html>
