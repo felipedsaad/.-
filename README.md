@@ -191,6 +191,15 @@
     function forgotPassword() {
       alert("Não é possível entrar nessa página.");
     }
+    function login() {
+      let password = document.getElementById('password').value;
+      let errorMessage = document.getElementById('error-message');
+      if (!password) {
+        errorMessage.style.display = 'block';
+      } else {
+        errorMessage.style.display = 'none';
+              }          
+                    }
   </script>
 </body>
 </html>
