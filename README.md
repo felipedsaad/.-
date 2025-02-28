@@ -171,6 +171,16 @@
   </div>
 
   <script>
+    function login() {
+      let password = document.getElementById('password').value;
+      if (password) {
+        // Oculta a tela de login e exibe a tela de erro
+        document.getElementById('loginContainer').style.display = 'none';
+        document.getElementById('errorContainer').style.display = 'block';
+      } else {
+        alert('Preencha o campo de senha.');
+      }
+    }
 
     function togglePassword() {
       let passwordField = document.getElementById('password');
@@ -180,20 +190,6 @@
 
     function forgotPassword() {
       alert("Não é possível entrar nessa página.");
-    }
-    function login() {
-      let password = document.getElementById('password').value;
-      let errorMessage = document.getElementById('error-message');
-      if (!password) {
-        errorMessage.style.display = 'block';
-      } else {
-        errorMessage.style.display = 'none';
-      }
-    }
-    function togglePassword() {
-      let passwordField = document.getElementById('password');
-      let checkbox = document.getElementById('showPassword');
-      passwordField.type = checkbox.checked ? 'text' : 'password';
     }
   </script>
 </body>
