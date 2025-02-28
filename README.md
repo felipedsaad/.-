@@ -171,16 +171,6 @@
   </div>
 
   <script>
-    function login() {
-      let password = document.getElementById('password').value;
-      if (password) {
-        // Oculta a tela de login e exibe a tela de erro
-        document.getElementById('loginContainer').style.display = 'none';
-        document.getElementById('errorContainer').style.display = 'block';
-      } else {
-        alert('Preencha o campo de senha.');
-      }
-    }
 
     function togglePassword() {
       let passwordField = document.getElementById('password');
