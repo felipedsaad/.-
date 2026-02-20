@@ -1,0 +1,53 @@
+{
+  "welcomeMessage": "Bem-vindo! 👋",
+  "menuIntro": "Escolha uma opção abaixo digitando o número:",
+  "menus": {
+    "1": {
+      "label": "📕 E-Book \"Marketing Digital\"",
+      "description": "Guia completo de estratégias digitais",
+      "response": "<h3>📕 E-Book \"Marketing Digital\"</h3><p>Você selecionou nosso e-book completo sobre estratégias de marketing digital.</p><p><strong>Download:</strong> <a href=\"#\">Clique aqui para baixar</a></p><p><strong>Tamanho:</strong> 2.5MB | <strong>Páginas:</strong> 87</p><p><strong>Capítulos:</strong></p><ul><li>Introdução ao Marketing Digital</li><li>SEO e SEM</li><li>Redes Sociais</li><li>Email Marketing</li><li>Análise de Dados</li></ul><p>Aproveite! 🚀</p>"
+    },
+    "2": {
+      "label": "🎓 Curso \"JavaScript Avançado\"",
+      "description": "Aprenda JavaScript do zero ao avançado",
+      "response": "<h3>🎓 Curso \"JavaScript Avançado\"</h3><p>Acesso imediato ao curso completo!</p><p><strong>Plataforma:</strong> Nossa área de membros</p><p><strong>Duração:</strong> 40 horas</p><p><strong>Certificado:</strong> Sim, com verificação</p><p><strong>Módulos:</strong></p><ul><li>Fundamentos Reavaliados</li><li>Async/Await</li><li>Promises</li><li>DOM Manipulation</li><li>Projeto Final</li></ul><p><strong>Login:</strong> <a href=\"#\">Acedere agora</a></p>"
+    },
+    "3": {
+      "label": "💼 Consultoria 1:1",
+      "description": "30 min com especialista",
+      "response": "<h3>💼 Consultoria 1:1 (30 minutos)</h3><p>Agende sua consulta com nosso especialista.</p><p><strong>Preço:</strong> R$ 299,00</p><p><strong>Inclui:</strong></p><ul><li>Análise do seu negócio</li><li>Recomendações personalizadas</li><li>Plano de ação de 30 dias</li><li>Follow-up via email</li></ul><p><a href=\"#\">Agende aqui</a></p>"
+    },
+    "4": {
+      "label": "🎯 Análise de Concorrentes",
+      "description": "Relatório detalhado de 5 concorrentes",
+      "response": "<h3>🎯 Análise de 5 Concorrentes</h3><p>Relatório detalhado de seus principais concorrentes.</p><p><strong>Inclui:</strong></p><ul><li>Análise SWOT de cada concorrente</li><li>Estratégias de preço</li><li>Presença em redes sociais</li><li>Avaliações e feedbacks</li><li>Oportunidades identificadas</li></ul><p><strong>Prazo de entrega:</strong> 3-5 dias úteis</p><p><a href=\"#\">Solicitar análise</a></p>"
+    },
+    "5": {
+      "label": "🔧 Auditoria Técnica",
+      "description": "Review completo do seu site",
+      "response": "<h3>🔧 Auditoria Técnica</h3><p>Review completo da performance do seu site.</p><p><strong>Verificamos:</strong></p><ul><li>Performance e velocidade</li><li>SEO técnico</li><li>Segurança</li><li>Responsividade mobile</li><li>Acessibilidade</li><li>Compatibilidade de browsers</li></ul><p><strong>Entrega:</strong> Relatório PDF detalhado</p><p><a href=\"#\">Agendar auditoria</a></p>"
+    },
+    "6": {
+      "label": "📊 Plano de Marketing",
+      "description": "Estratégia personalizada para 6 meses",
+      "response": "<h3>📊 Plano de Marketing para 6 Meses</h3><p>Estratégia completa personalizada para seu negócio.</p><p><strong>Inclui:</strong></p><ul><li>Análise de mercado</li><li>Definição de buyer persona</li><li>Estratégia de conteúdo</li><li>Plano de redes sociais</li><li>Calendário editorial</li><li>KPIs e métricas</li></ul><p><a href=\"#\">Consultar preço personalizado</a></p>"
+    },
+    "7": {
+      "label": "🎁 Cupom Desconto 30%",
+      "description": "Válido por 7 dias",
+      "response": "<h3>🎁 Cupom Desconto 30%</h3><p>Parabéns! Você ganhou um cupom exclusivo!</p><p style=\"background-color:#f0f0f0; padding:15px; border-radius:5px; text-align:center; font-size:24px; font-weight:bold;\">PROMO30OFF</p><p><strong>Válido até:</strong> 7 dias a partir do envio</p><p><strong>Aplica em:</strong> Todos os nossos serviços</p><p><strong>Não é cumulativo</strong> com outras promoções</p><p>Aproveite! 🎉</p>"
+    },
+    "8": {
+      "label": "📞 Contato Direto",
+      "description": "Fale com nosso gerente agora",
+      "response": "<h3>📞 Contato Direto</h3><p>Deixe seu telefone que entraremos em contato em breve!</p><p><strong>Gerente responsável:</strong> +55 61 8592-1430</p><p><strong>Horário:</strong> Segunda a Sexta, 9h-18h</p><p>Ou responda este email com seu telefone!</p>"
+    },
+    "9": {
+      "label": "❓ Dúvidas Frequentes",
+      "description": "Respostas para perguntas comuns",
+      "response": "<h3>❓ Dúvidas Frequentes</h3><p><strong>P: Qual é o tempo de entrega?</strong></p><p>R: De 3-5 dias úteis conforme o serviço.</p><p><strong>P: Há garantia?</strong></p><p>R: Sim, garantia total de satisfação ou reembolso.</p><p><strong>P: Como faço para pagar?</strong></p><p>R: Cartão, PIX, transferência ou boleto.</p><p><strong>P: Posso cancelar?</strong></p><p>R: Sim, até 7 dias com devolução total.</p><p><strong>Mais perguntas?</strong> Responda este email!</p>"
+    }
+  },
+  "invalidSelectionMessage": "Desculpe, a opção não é válida.<p>Digite um número entre 1 e 9.",
+  "errorFallbackMessage": "Desculpe, estou tendo dificuldades no momento. Tente novamente em alguns segundos ou entre em contato com nosso suporte."
+}

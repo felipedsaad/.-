@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤖 Painel ChatBot - Editor de Mensagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1>🤖 ChatBot Email</h1>
+        <p>Gerenciador de Mensagens em Tempo Real</p>
+      </div>
+      <div class="status">
+        <span class="status-dot online"></span>
+        <span class="status-text">Online</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Sidebar Navigation -->
+      <nav class="sidebar">
+        <div class="nav-section">
+          <h3>📋 Configurações</h3>
+          <button class="nav-btn active" data-tab="welcome">
+            👋 Boas-vindas
+          </button>
+          <button class="nav-btn" data-tab="menus">
+            📌 Menus (1-9)
+          </button>
+          <button class="nav-btn" data-tab="messages">
+            💬 Outras Mensagens
+          </button>
+        </div>
+
+        <div class="nav-section">
+          <h3>⚙️ Ações</h3>
+          <button class="nav-btn" id="saveBtn">💾 Salvar Tudo</button>
+          <button class="nav-btn danger" id="resetBtn">🔄 Restaurar Padrão</button>
+        </div>
+      </nav>
+
+      <!-- Content Area -->
+      <div class="content">
+        <!-- Tab: Welcome Message -->
+        <section id="welcome" class="tab-content active">
+          <h2>👋 Boas-vindas e Menu Principal</h2>
+          
+          <div class="form-group">
+            <label for="welcomeMessage">Mensagem de Boas-vindas:</label>
+            <input type="text" id="welcomeMessage" placeholder="Bem-vindo! 👋" class="input-text">
+          </div>
+
+          <div class="form-group">
+            <label for="menuIntro">Introdução do Menu:</label>
+            <textarea id="menuIntro" class="input-textarea" placeholder="Escolha uma opção abaixo..."></textarea>
+          </div>
+
+          <div class="preview-box">
+            <h3>📱 Pré-visualização:</h3>
+            <div class="message-preview">
+              <p id="previewWelcome"></p>
+            </div>
+          </div>
+
+          <button class="btn-save" onclick="saveWelcome()">✅ Salvar Boas-vindas</button>
+        </section>
+
+        <!-- Tab: Menus (1-9) -->
+        <section id="menus" class="tab-content">
+          <h2>📌 Configurar Menus (1-9)</h2>
+          
+          <div class="menus-grid">
+            <!-- Menu items será carregado aqui -->
+          </div>
+        </section>
+
+        <!-- Tab: Other Messages -->
+        <section id="messages" class="tab-content">
+          <h2>💬 Outras Mensagens</h2>
+          
+          <div class="form-group">
+            <label for="invalidSelection">Opção Inválida:</label>
+            <textarea id="invalidSelection" class="input-textarea" placeholder="Desculpe, a opção não é válida..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="errorFallback">Mensagem de Erro:</label>
+            <textarea id="errorFallback" class="input-textarea" placeholder="Desculpe, estou tendo dificuldades..."></textarea>
+          </div>
+
+          <button class="btn-save" onclick="saveMessages()">✅ Salvar Mensagens</button>
+        </section>
+      </div>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
